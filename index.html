@@ -344,6 +344,41 @@ margin-right: 400px; */
 </table>
 </fieldset>
 
+<script type="application/javascript">
 
+        $("button").click(function() {
+               // alert(this.id);
+
+                var responseId = this.id;
+                //var title = $( 'h1' ).find( 'B' ).text();
+                //var counter = $('h3').find('center').text();
+
+                var title = "BATTI1001";
+                var counter = "c1";
+                var gender = $('input[name=gender]:checked').val();
+
+                var dataHash  = {};
+                if(gender!=null){
+                    dataHash = {responseId:responseId,title:title,counter:counter,gender:gender};
+                } else {
+                    dataHash = {responseId:responseId,title:title,counter:counter,gender:"NULL"};
+                }
+
+                $.ajax({
+                    type:"POST",
+                    url:"/getResponse",
+                    data: dataHash,
+
+                    success: function (data) {
+                        window.location.href = "/sayThankyou";
+                    },
+                    error: function (httpRequest, textStatus, errorThrown) {
+                         alert("An Error occurred");
+                     }
+                });
+
+        });
+
+    </script>
 </body>
 </html>
