@@ -4,7 +4,7 @@
 */
 
 /* Large screen */
-/* @media only screen  and (min-width : 1824px) {
+@media only screen  and (min-width : 1824px) {
 
 	body{
 	 color: #581845 ;
@@ -62,11 +62,11 @@
 	.fieldset1{
   margin-top: 10px;
 	}
-} */
+}
 
 
 /* Destop and Laptops */
-/* @media only screen  and (min-width : 1224px) {
+@media only screen  and (min-width : 1224px) {
  	 body{
   	color: #581845 ;
   }
@@ -117,10 +117,10 @@
   }
   .fieldset2{
   }
-} */
+}
 
 /* iPads (landscape) ----------- */
-/* @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
 
   body{
    color: #581845 ;
@@ -173,13 +173,13 @@
   .fieldset2{
   }
   }
- */
+
 
 
 
 
  /* iPads (portrait) ----------- */
- /* @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+ @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
 
    body{
     color: #581845 ;
@@ -231,13 +231,13 @@
    }
    .fieldset2{
    }
-   } */
+   }
 
 
 
 
    /* Smartphones (landscape) ----------- */
-/* @media only screen and (min-width : 321px) {
+@media only screen and (min-width : 321px) {
      body{
       color: #581845 ;
      }
@@ -288,7 +288,7 @@
      }
      .fieldset2{
      }
-     } */
+     }
 
 
      /* Smartphones (portrait) ----------- */
@@ -317,8 +317,8 @@
            display: inline-block;
            font-size: 16px;
            cursor: pointer;
-           height: 30px;
-           width: 100px;
+           height: 90px;
+           width: 200px;
           }
           .button2{
            border-radius: 1%;
@@ -332,8 +332,8 @@
            font-size: 16px;
            margin: 4px 2px;
            cursor: pointer;
-           height: 50px;
-           width: 50px;
+           height: 100px;
+           width: 100px;
 
           }
           .fieldset1{
