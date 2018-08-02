@@ -120,7 +120,7 @@
 }
 
 /* iPads (landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
 
   body{
    color: #581845 ;
@@ -172,14 +172,14 @@
   }
   .fieldset2{
   }
-  }
+  } */
 
 
 
 
 
  /* iPads (portrait) ----------- */
- @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+ /* @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
 
    body{
     color: #581845 ;
@@ -231,13 +231,13 @@
    }
    .fieldset2{
    }
-   }
+   } */
 
 
 
 
    /* Smartphones (landscape) ----------- */
-@media only screen and (min-width : 321px) {
+/* @media only screen and (min-width : 321px) {
      body{
       color: #581845 ;
      }
@@ -288,11 +288,11 @@
      }
      .fieldset2{
      }
-     }
+     } */
 
 
      /* Smartphones (portrait) ----------- */
- @media only screen and (max-width : 320px) {
+ /* @media only screen and (max-width : 320px) {
           body{
            color: #581845 ;
           }
@@ -343,4 +343,4 @@
           }
           .fieldset2{
           }
-          }
+          } */
