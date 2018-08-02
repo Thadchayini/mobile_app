@@ -1,0 +1,291 @@
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+/* Large screen */
+/* @media only screen  and (min-width : 1824px) {
+
+	body{
+	 color: #581845 ;
+	}
+	th{
+	 color: #C0C0C0;
+	 font-size: 20px;
+	}
+	header{
+
+	text-align: center;
+	 font-size: 30px;
+	 margin-top: 50px;
+	 margin-bottom: 30px;
+	 padding-top: 50px;
+	 padding-bottom: 50px;
+	 background-color:  #641e16 ;
+
+	}
+	td{
+	 padding-bottom: 50px;
+	}
+	th{
+	 color: black;
+	}
+
+#button1{
+  background-color:#FFC300 ;
+  border: 3px;
+  border-color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  cursor: pointer;
+  height: 200px;
+  width: 600px;
+}
+
+	.button2{
+	 border-radius: 1%;
+	 background-color: 	#C0C0C0;
+	 border: 3px;
+	 border-color: black;
+	 padding: 20px;
+	 text-align: center;
+	 text-decoration: none;
+	 display: inline-block;
+	 font-size: 10px;
+	 cursor: pointer;
+	 height: 400px;
+	 width: 400px;
+
+	}
+	.fieldset1{
+  margin-top: 10px;
+	}
+} */
+
+
+/* Destop and Laptops */
+/* @media only screen  and (min-width : 1224px) {
+ 	 body{
+  	color: #581845 ;
+  }
+  th{
+  	color: #C0C0C0;
+  	font-size: 30px;
+  }
+
+  td{
+  	padding-bottom: 50px;
+  }
+  th{
+  	color: black;
+  }
+
+  #button1{
+    background-color: 	 #FFC300 ;
+    border: 3px;
+    border-color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    height: 200px;
+    width: 600px;
+  }
+  .button2{
+  	border-radius: 1%;
+  	background-color: 	#C0C0C0;
+  	border: 3px;
+  	border-color: black;
+  	padding: 20px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	margin: 4px 2px;
+  	cursor: pointer;
+    height: 400px;
+ 	 width: 400px;
+
+  }
+  .fieldset1{
+  	margin-top: 10px;
+
+
+  }
+  .fieldset2{
+  }
+} */
+
+/* iPads (landscape) ----------- */
+/* @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+
+  body{
+   color: #581845 ;
+  }
+  th{
+   color: #C0C0C0;
+   font-size: 30px;
+  }
+
+  td{
+   padding-bottom: 50px;
+  }
+  th{
+   color: black;
+  }
+
+  #button1{
+   background-color: 	 #FFC300 ;
+   border: 3px;
+   border-color: black;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   cursor: pointer;
+   height: 200px;
+   width: 600px;
+  }
+  .button2{
+   border-radius: 1%;
+   background-color: 	#C0C0C0;
+   border: 3px;
+   border-color: black;
+   padding: 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   cursor: pointer;
+   height: 400px;
+  width: 400px;
+
+  }
+  .fieldset1{
+   margin-top: 10px;
+
+
+  }
+  .fieldset2{
+  }
+  }
+ */
+
+
+
+
+ /* iPads (portrait) ----------- */
+ /* @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+
+   body{
+    color: #581845 ;
+   }
+   th{
+    color: #C0C0C0;
+    font-size: 30px;
+   }
+
+   td{
+    padding-bottom: 50px;
+   }
+   th{
+    color: black;
+   }
+
+   #button1{
+    background-color: 	 #FFC300 ;
+    border: 3px;
+    border-color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    height: 200px;
+    width: 600px;
+   }
+   .button2{
+    border-radius: 1%;
+    background-color: 	#C0C0C0;
+    border: 3px;
+    border-color: black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    height: 400px;
+   width: 400px;
+
+   }
+   .fieldset1{
+    margin-top: 10px;
+
+
+   }
+   .fieldset2{
+   }
+   } */
+
+
+
+
+   /* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+     body{
+      color: #581845 ;
+     }
+     th{
+      color: #C0C0C0;
+      font-size: 30px;
+     }
+
+     td{
+      padding-bottom: 50px;
+     }
+     th{
+      color: black;
+     }
+
+     #button1{
+      background-color: 	 #FFC300 ;
+      border: 3px;
+      border-color: black;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+      height: 30px;
+      width: 100px;
+     }
+     .button2{
+      border-radius: 1%;
+      background-color: 	#C0C0C0;
+      border: 3px;
+      border-color: black;
+      padding: 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      height: 50px;
+      width: 50px;
+
+     }
+     .fieldset1{
+      margin-top: 10px;
+
+
+     }
+     .fieldset2{
+     }
+     }
