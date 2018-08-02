@@ -237,7 +237,7 @@
 
 
    /* Smartphones (landscape) ----------- */
-@media only screen and (min-width : 321px) {
+/* @media only screen and (min-width : 321px) {
      body{
       color: #581845 ;
      }
@@ -288,4 +288,59 @@
      }
      .fieldset2{
      }
-     }
+     } */
+
+
+     /* Smartphones (portrait) ----------- */
+ @media only screen and (max-width : 320px) {
+          body{
+           color: #581845 ;
+          }
+          th{
+           color: #C0C0C0;
+           font-size: 30px;
+          }
+
+          td{
+           padding-bottom: 50px;
+          }
+          th{
+           color: black;
+          }
+
+          #button1{
+           background-color: 	 #FFC300 ;
+           border: 3px;
+           border-color: black;
+           text-align: center;
+           text-decoration: none;
+           display: inline-block;
+           font-size: 16px;
+           cursor: pointer;
+           height: 30px;
+           width: 100px;
+          }
+          .button2{
+           border-radius: 1%;
+           background-color: 	#C0C0C0;
+           border: 3px;
+           border-color: black;
+           padding: 20px;
+           text-align: center;
+           text-decoration: none;
+           display: inline-block;
+           font-size: 16px;
+           margin: 4px 2px;
+           cursor: pointer;
+           height: 50px;
+           width: 50px;
+
+          }
+          .fieldset1{
+           margin-top: 10px;
+
+
+          }
+          .fieldset2{
+          }
+          }
